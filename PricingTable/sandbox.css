@@ -137,41 +137,41 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .final__pricing-table {
+  .pricing-table {
     margin: auto;
   }
-  .final__pricing-table > div {
+  .pricing-table > div {
     float: none;
     width: 100%;
   }
-  .final__pricing-table > div:not(:last-child) {
+  .pricing-table > div:not(:last-child) {
     margin-right: 0;
     margin-bottom: 20px;
   }
-  .final__pricing-body {
+  .pricing-body {
     max-width: 100%;
     overflow: hidden;
     overflow-x: auto;
     white-space: nowrap;
   }
-  .final__pricing-body ul li {
+  .pricing-body ul li {
     display: inline-block;
     vertical-align: middle;
   }
-  .final__pricing-body ul li:not(:first-child) {
+  .pricing-body ul li:not(:first-child) {
     margin-left: -5px;
   }
-  .final__pricing-body ul li:nth-child(2n) {
+  .pricing-body ul li:nth-child(2n) {
     background-color: #e8e8e8;
   }
-  .final__pricing-footer {
+  .pricing-footer {
     padding-top: 0;
   }
-  .final__pricing-popular {
+  .pricing-popular {
     margin-top: 0;
   }
-  .final__pricing-popular .final__pricing-header,
-  .final__pricing-popular .final__pricing-footer {
+  .pricing-popular .pricing-header,
+  .pricing-popular .pricing-footer {
     padding-top: 30px;
   }
 }
